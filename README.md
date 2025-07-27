@@ -24,3 +24,67 @@ To wrap up the layout, you want to be sure that your content (article) takes ⅔
 Finally, you want to be sure that the user can scroll within your <article> and your <aside>. You can do this by applying the overflow-y: auto CSS property to both of them.
 If you’ve done all of those properly, and your HTML structure is correct, you should get exactly the layout we were trying to get.
 Do note that the exact rendering you’re getting may be slightly different depending on your browser (namely, about whether header and footer are fixed or not when the user scrolls), but should always match the layout presented above.
+
+# Responsive Web Design
+You may notice that the website keeps this layout when you make your browser window smaller, or visit it from a smartphone, and it’s unpleasant to use that way for your users. No worries, we covered this for you: just add the attribute class="works_on_smartphone" on the <body> tag in your index.html file, and the layout you just created will degrade nicely as you resize the window!
+
+But you’ll notice, if you visit your website on a smartphone, that it will still have that layout, and just seem “zoomed out”. That’s because you need to adjust what is called the “viewport” of the browser when rendering the page.
+
+Hint: this gets done by adding a certain tag to your HTML code.
+
+# Some more styling 
+Your website is unique, and if you want it not to look like everyone else’s, you may want to take some time to style everything of it as you wish!
+What you’re allowed to do:
+You may add any non-positioning-related CSS rules to styles.css (like colors, backgrounds, borders, …)
+You may do whatever you want with the HTML content and the CSS that applies inside the <article> tag.
+You may add a logo to the top-left of your page. To keep it simple, rather than use an image, feel free to use a unicode character, from this table for instance. One way to make it work: add a first item in the list in your <header>, before all other list items, and just put the HTML-code for the character in it (it starts with “&” and ends with “;”). To make it look like a logo, if you want the character to be bigger, you can add the class="logo" attribute on the
+tag, we added the CSS rule for you.
+What you’re not allowed to do:Do not change the layout strategy, done with CSS Flexbox, as described above. Feel free to experiment with positioning within the <article> tag if you wish; but please refrain to do so anywhere else.
+
+
+
+##
+
+
+##### CSS ADVANCED
+
+SmileSchool Landing Page
+This is a static responsive landing page for SmileSchool, showcasing tutorials, instructors, testimonials, membership benefits, and FAQs. The project is built with HTML and styled using CSS, following best practices for layout and content structure.Responsive Design: Optimized for various screen sizes using the <meta viewport> tag.
+
+Features
+--Navigation Bar with logo and links.
+--Hero Section with slogan and call-to-action.
+--Instructor Showcase: Meet the professional tutors.
+--Testimonial Block: Quote with image and role.
+--Popular Tutorials Section with star ratings and durations.
+--Membership Offer: Highlights of benefits with a signup CTA.
+FAQ Section: Detailed answers to common questions.
+Footer with logo and social media icons.
+
+project-folder
+│
+├── index.html
+├── styles.css
+├── images/
+│   ├── 1.png
+│   ├── 2.png
+│   ├── 3.png
+│   ├── 4.png
+│   ├── 5.png
+│   ├── 6.png
+│   ├── 7.png
+│   ├── 8.png
+│   ├── 9.png
+│   ├── logo.png
+│   ├── Object.png
+│   ├── play.png
+│   ├── rating.png
+│   ├── smile.png
+
+
+## How to Run all CSS Basic and CSS Advance
+Clone or download this repository.
+
+Make sure images are in the correct path (./images/).
+
+Open index.html in any modern web browser
