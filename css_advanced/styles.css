@@ -124,3 +124,44 @@ li a{
 .team-pro p{
     font-size: 1rem;
 }
+
+.section-qoutes{
+    background-color: #c271ff;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 60px 20px;
+    color: #fff;
+
+
+}
+
+.blockquote-section{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    max-width: 700px;
+    margin-left: 10px;
+
+}
+.blockquote-section blockquote{
+    font-style: italic;
+    margin: 0 0 10px 0
+}
+
+.blockquote-section h3,
+.blockquote-section p{
+    margin: 0;
+    text-align:left;
+}
+
+.blockquote-section h3{
+    font-weight: bold;
+}
+.blockquote-section p{
+    font-style: italic;
+    
+}
